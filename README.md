@@ -1,4 +1,4 @@
-pychram破解  http://idea.lanyus.com/
+pychram安装
 
 pip install requests
 
@@ -14,8 +14,6 @@ A.下载mysql-connector-python-2.1.6-py2.7-winx64.msi，下载之后，根据提
 
 
 
-
-替换Lib目录下 site-packages / requests包里的 auth.py  （实现了和目digest鉴权、网关TR069鉴权、标准鉴权的分离）
 
 
 ——————runner 方法参数————————
