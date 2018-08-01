@@ -34,6 +34,9 @@ dataToReplace:该用例执行前，需要用其他用例的执行结果，来参
             填写示例：1-1:devList#0.funtionList#0.openDate>time   “:”前是该用例的用例编号(用例第一列的值)，“>”前是替换源，“>”后是替换目标，填写方式同dataToStore; 需要参数化多个值时用“|”分离。\n
             
 pre_SQL列如果填写，会在执行该用例之前执行该SQL；
-测试用例实践类参数化：
+
+测试用例时间类参数化：
     在testData中，值设为 $TIME_NOW , $TIME_TODAY , $TIME_FUTURE ,会自动参数化为当前时间，当前日期0点，30天后的日期0点；
+    
                  值设为  $DATE_TODAY, $DATE_NEXT_MONTH, $DATE_MONTH_LATER. 会自动参数化为 当前日期， 下月1号日期， 30天后的日期
+                 
