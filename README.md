@@ -20,6 +20,8 @@ A.下载mysql-connector-python-2.1.6-py2.7-winx64.msi，下载之后，根据提
 
 ig cq_hoa V1.0.0 test http://172.19.1.203:8190 dbhost dbuser dbpwd dbname
 
+testcase文件名 sheel名 版本 环境 接口地址 数据库host:port 数据库用户名 数据库密码 数据库名
+
 
 testCase.xlsx中dataToStore和dataToReplace列填写示例：
 
